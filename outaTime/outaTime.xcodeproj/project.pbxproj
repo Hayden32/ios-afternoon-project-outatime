@@ -11,6 +11,8 @@
 		EFD577A9230B40640084A9C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD577A7230B40640084A9C2 /* Main.storyboard */; };
 		EFD577AB230B40650084A9C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD577AA230B40650084A9C2 /* Assets.xcassets */; };
 		EFD577AE230B40650084A9C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD577AC230B40650084A9C2 /* LaunchScreen.storyboard */; };
+		EFD577BA230B41A10084A9C2 /* TimeCircuitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD577B9230B41A10084A9C2 /* TimeCircuitsViewController.swift */; };
+		EFD577BC230B41B60084A9C2 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD577BB230B41B60084A9C2 /* DatePickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,9 @@
 		EFD577AA230B40650084A9C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFD577AD230B40650084A9C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFD577AF230B40650084A9C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD577B9230B41A10084A9C2 /* TimeCircuitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCircuitsViewController.swift; sourceTree = "<group>"; };
+		EFD577BB230B41B60084A9C2 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		EFD577BD230B422B0084A9C2 /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "digital-7.ttf"; path = "../../digital-7.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +80,7 @@
 				EFD577A3230B40640084A9C2 /* AppDelegate.swift */,
 				EFD577AA230B40650084A9C2 /* Assets.xcassets */,
 				EFD577AF230B40650084A9C2 /* Info.plist */,
+				EFD577BD230B422B0084A9C2 /* digital-7.ttf */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -82,6 +88,8 @@
 		EFD577B7230B40B60084A9C2 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				EFD577B9230B41A10084A9C2 /* TimeCircuitsViewController.swift */,
+				EFD577BB230B41B60084A9C2 /* DatePickerViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -164,7 +172,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFD577BA230B41A10084A9C2 /* TimeCircuitsViewController.swift in Sources */,
 				EFD577A4230B40640084A9C2 /* AppDelegate.swift in Sources */,
+				EFD577BC230B41B60084A9C2 /* DatePickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7V775U4648;
-				INFOPLIST_FILE = outaTime/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,7 +340,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7V775U4648;
-				INFOPLIST_FILE = outaTime/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
